@@ -2,7 +2,7 @@ console.log("Hello World!")
 function alterHP(current, total) {
     let hp_fill = document.querySelector('.hp_fill');
     let hp_count = document.querySelector('.hp');
-    let hp_percent = (current / total) * 100;
+    let hp_percent = (current / total) * 10;
     hp_fill.style.width = hp_percent + '%';
     hp_count.innerHTML = current + '/' + total;
 }
